@@ -20,12 +20,12 @@
 
 - { margin: 0; padding: 0; box-sizing: border-box; }
 
-html { scroll-behavior: smooth; }
+html { scroll-behavior: smooth; background: #0a0a0f; }
 
 body {
-background: var(–ink);
-color: var(–paper);
-font-family: ‘Cormorant Garamond’, serif;
+background: #0a0a0f;
+color: #f5f0e8;
+font-family: ‘Cormorant Garamond’, Georgia, serif;
 overflow-x: hidden;
 }
 
@@ -38,7 +38,7 @@ justify-content: center;
 align-items: center;
 position: relative;
 padding: 60px 20px;
-background: var(–ink);
+background: #0a0a0f;
 overflow: hidden;
 }
 
@@ -93,10 +93,10 @@ animation-delay: -8s;
 }
 
 .hero-label {
-font-family: ‘Space Mono’, monospace;
+font-family: ‘Space Mono’, Courier, monospace;
 font-size: 10px;
 letter-spacing: 4px;
-color: var(–gold);
+color: #c9a84c;
 text-transform: uppercase;
 margin-bottom: 32px;
 opacity: 0;
@@ -106,7 +106,7 @@ z-index: 2;
 }
 
 .hero-title {
-font-family: ‘Playfair Display’, serif;
+font-family: ‘Playfair Display’, Georgia, serif;
 font-size: clamp(48px, 10vw, 110px);
 font-weight: 900;
 text-align: center;
@@ -119,7 +119,7 @@ animation: fadeUp 1s ease 0.6s forwards;
 
 .hero-title em {
 font-style: italic;
-color: var(–gold);
+color: #c9a84c;
 display: block;
 }
 
@@ -133,7 +133,7 @@ margin-top: 12px;
 }
 
 .hero-subtitle {
-font-family: ‘Cormorant Garamond’, serif;
+font-family: ‘Cormorant Garamond’, Georgia, serif;
 font-size: clamp(16px, 2.5vw, 22px);
 font-style: italic;
 color: rgba(245,240,232,0.65);
@@ -162,17 +162,17 @@ z-index: 2;
 }
 
 .scroll-cue span {
-font-family: ‘Space Mono’, monospace;
+font-family: ‘Space Mono’, Courier, monospace;
 font-size: 9px;
 letter-spacing: 3px;
-color: var(–gold);
+color: #c9a84c;
 text-transform: uppercase;
 }
 
 .scroll-line {
 width: 1px;
 height: 60px;
-background: linear-gradient(to bottom, var(–gold), transparent);
+background: linear-gradient(to bottom, #c9a84c, transparent);
 animation: scrollPulse 2s ease-in-out infinite;
 }
 
@@ -188,8 +188,8 @@ to { opacity: 1; transform: translateY(0); }
 
 /* Article body */
 .article {
-background: var(–paper);
-color: var(–ink);
+background: #f5f0e8;
+color: #0a0a0f;
 position: relative;
 }
 
@@ -198,7 +198,7 @@ content: ‘’;
 position: absolute;
 top: 0; left: 0; right: 0;
 height: 4px;
-background: linear-gradient(90deg, var(–rust), var(–gold), var(–accent), var(–gold), var(–rust));
+background: linear-gradient(90deg, #8b3a2a, #c9a84c, #4a2060, #c9a84c, #8b3a2a);
 }
 
 .container {
@@ -209,7 +209,7 @@ padding: 80px 30px;
 
 /* Pull quote / intro */
 .intro-block {
-border-left: 3px solid var(–gold);
+border-left: 3px solid #c9a84c;
 padding: 20px 0 20px 32px;
 margin-bottom: 60px;
 }
@@ -218,7 +218,7 @@ margin-bottom: 60px;
 font-size: clamp(20px, 3vw, 28px);
 font-style: italic;
 line-height: 1.6;
-color: var(–deep);
+color: #1a1025;
 font-weight: 300;
 }
 
@@ -228,27 +228,27 @@ margin-bottom: 70px;
 }
 
 .section-number {
-font-family: ‘Space Mono’, monospace;
+font-family: ‘Space Mono’, Courier, monospace;
 font-size: 10px;
 letter-spacing: 3px;
-color: var(–gold);
+color: #c9a84c;
 text-transform: uppercase;
 display: block;
 margin-bottom: 12px;
 }
 
 h2 {
-font-family: ‘Playfair Display’, serif;
+font-family: ‘Playfair Display’, Georgia, serif;
 font-size: clamp(28px, 4vw, 42px);
 font-weight: 700;
 line-height: 1.15;
-color: var(–deep);
+color: #1a1025;
 margin-bottom: 28px;
 }
 
 h2 em {
 font-style: italic;
-color: var(–rust);
+color: #8b3a2a;
 }
 
 p {
@@ -263,17 +263,17 @@ font-weight: 300;
 .pullquote {
 margin: 50px -40px;
 padding: 40px 50px;
-background: var(–deep);
-color: var(–paper);
+background: #1a1025;
+color: #f5f0e8;
 position: relative;
 overflow: hidden;
 }
 
 .pullquote::before {
 content: ‘\201C’;
-font-family: ‘Playfair Display’, serif;
+font-family: ‘Playfair Display’, Georgia, serif;
 font-size: 200px;
-color: var(–gold);
+color: #c9a84c;
 opacity: 0.15;
 position: absolute;
 top: -30px;
@@ -282,10 +282,10 @@ line-height: 1;
 }
 
 .pullquote p {
-font-family: ‘Playfair Display’, serif;
+font-family: ‘Playfair Display’, Georgia, serif;
 font-size: clamp(20px, 3vw, 28px);
 font-style: italic;
-color: var(–paper);
+color: #f5f0e8;
 line-height: 1.5;
 position: relative;
 z-index: 1;
@@ -293,10 +293,10 @@ margin-bottom: 16px;
 }
 
 .pullquote cite {
-font-family: ‘Space Mono’, monospace;
+font-family: ‘Space Mono’, Courier, monospace;
 font-size: 11px;
 letter-spacing: 2px;
-color: var(–gold);
+color: #c9a84c;
 text-transform: uppercase;
 display: block;
 position: relative;
@@ -323,22 +323,22 @@ content: ‘’;
 position: absolute;
 bottom: 0; left: 0;
 width: 40px; height: 2px;
-background: var(–gold);
+background: #c9a84c;
 }
 
 .thinker-name {
-font-family: ‘Playfair Display’, serif;
+font-family: ‘Playfair Display’, Georgia, serif;
 font-size: 18px;
 font-weight: 700;
-color: var(–deep);
+color: #1a1025;
 margin-bottom: 6px;
 }
 
 .thinker-desc {
-font-family: ‘Space Mono’, monospace;
+font-family: ‘Space Mono’, Courier, monospace;
 font-size: 10px;
 letter-spacing: 1px;
-color: var(–gold);
+color: #c9a84c;
 text-transform: uppercase;
 margin-bottom: 12px;
 }
@@ -351,17 +351,17 @@ margin-bottom: 0;
 
 /* Science confirmed block */
 .evidence-block {
-background: var(–mist);
-border-top: 3px solid var(–rust);
+background: #e8e0d0;
+border-top: 3px solid #8b3a2a;
 padding: 36px;
 margin: 40px 0;
 }
 
 .evidence-label {
-font-family: ‘Space Mono’, monospace;
+font-family: ‘Space Mono’, Courier, monospace;
 font-size: 9px;
 letter-spacing: 4px;
-color: var(–rust);
+color: #8b3a2a;
 text-transform: uppercase;
 margin-bottom: 20px;
 }
@@ -377,7 +377,7 @@ align-items: flex-start;
 width: 8px;
 height: 8px;
 border-radius: 50%;
-background: var(–gold);
+background: #c9a84c;
 flex-shrink: 0;
 margin-top: 9px;
 }
@@ -390,7 +390,7 @@ line-height: 1.65;
 
 .evidence-item strong {
 font-weight: 600;
-color: var(–deep);
+color: #1a1025;
 }
 
 /* Divider */
@@ -408,15 +408,15 @@ background: linear-gradient(90deg, transparent, rgba(201,168,76,0.4), transparen
 }
 
 .divider-symbol {
-font-family: ‘Playfair Display’, serif;
+font-family: ‘Playfair Display’, Georgia, serif;
 font-size: 24px;
-color: var(–gold);
+color: #c9a84c;
 opacity: 0.6;
 }
 
 /* Closing */
 .closing {
-background: var(–deep);
+background: #1a1025;
 padding: 100px 30px;
 text-align: center;
 position: relative;
@@ -431,9 +431,9 @@ background: radial-gradient(ellipse 70% 60% at 50% 50%, rgba(74,32,96,0.5), tran
 }
 
 .closing h2 {
-font-family: ‘Playfair Display’, serif;
+font-family: ‘Playfair Display’, Georgia, serif;
 font-size: clamp(32px, 6vw, 64px);
-color: var(–paper);
+color: #f5f0e8;
 line-height: 1.1;
 position: relative;
 z-index: 1;
@@ -441,7 +441,7 @@ margin-bottom: 32px;
 }
 
 .closing h2 em {
-color: var(–gold);
+color: #c9a84c;
 font-style: italic;
 }
 
@@ -458,17 +458,17 @@ line-height: 1.8;
 .closing-rule {
 width: 60px;
 height: 2px;
-background: var(–gold);
+background: #c9a84c;
 margin: 40px auto;
 position: relative;
 z-index: 1;
 }
 
 .final-line {
-font-family: ‘Space Mono’, monospace;
+font-family: ‘Space Mono’, Courier, monospace;
 font-size: 11px;
 letter-spacing: 3px;
-color: var(–gold);
+color: #c9a84c;
 text-transform: uppercase;
 position: relative;
 z-index: 1;
